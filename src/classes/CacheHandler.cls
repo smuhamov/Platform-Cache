@@ -19,14 +19,14 @@ public virtual class CacheHandler implements CacheInterface{
     }
 
     public Boolean remove(String key) {
-        return partition.remove(CX_CacheBuilder.class, key);
+        return partition.remove(CacheBuilder.class, key);
     }
 
     public Object get(String key) {
-        return partition.get(CX_CacheBuilder.class, key);
+        return partition.get(CacheBuilder.class, key);
     }
 
     public String getJson(String key) {
-        return JSON.serialize(partition.get(CX_CacheBuilder.class, key));
+        return JSON.serialize(partition.get(CacheBuilder.class, key));
     }
 }
