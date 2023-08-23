@@ -25,5 +25,5 @@ Once you create the classes, and setup the configs, you can run a query in a bel
 
 ``` Java 
 OrgCache cacheInstance = new OrgCache('OrgCache');
-List<Contact> accountList = (List<Contact>) cacheInstance.get('contactQuery');
+List<Account> accountList = (List<Account>) cacheInstance.get('accountQuery');
 ```
