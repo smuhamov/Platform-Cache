@@ -25,7 +25,7 @@ Create a Platform Cache partition
 
 # How to Use the Framework
 
-Once you create the classes, and setup the configs, you can run a query in a below format. Below is query for Org partition, you can follow the same pattern for Session partition as well. In the constructor, you need to enter name for your Platform Cache partition. 
+Once you create the classes, and setup the configs, you can run a query in a below format. Below is query for Org partition, you can follow the same pattern for Session partition as well. In the constructor, you need to pass in the name for your Platform Cache partition. 
 
 ``` Java 
 OrgCache cacheInstance = new OrgCache('OrgCache');
