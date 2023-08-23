@@ -6,15 +6,15 @@ Salesforce platform cache is lot faster than normal queries. Also when you run a
 
 # How to Setup
 
-Standard Cachbuilder interface would only allow alphanumeric string as an input variable for doload method. It wouldn't allow special characters or spaces in a String. So as a way around this framework uses custom settings. Create a Custom Settings to store your queries for cachebuilder class. Then create custom setting records to store you query.
+Standard Cachbuilder interface would only allow alphanumeric string as an input variable for doload method. It wouldn't allow special characters or spaces in a String. So as a way around, this framework uses custom settings. Create a Custom Settings to store your queries for cachebuilder class.
 
 <img width="2874" alt="Screenshot 2023-08-23 at 12 00 33 PM" src="https://github.com/smuhamov/Platform-Cache/assets/22484395/989dd45c-7857-4b19-8980-c8c7f828fd0d">
 
-Then create custom setting records to store you query.
+Create custom setting records to store you query.
 
 <img width="2809" alt="Screenshot 2023-08-23 at 12 01 03 PM" src="https://github.com/smuhamov/Platform-Cache/assets/22484395/83072b22-6c48-4706-b9eb-46f0176f716e">
 
-Then create a Platform Cache partition
+Create a Platform Cache partition
 <img width="3327" alt="Screenshot 2023-08-23 at 12 21 13 PM" src="https://github.com/smuhamov/Platform-Cache/assets/22484395/b50483d3-c15e-4e22-939d-4564cc7353c6">
 
 
